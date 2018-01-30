@@ -1,0 +1,6 @@
+framework module Pods_LJComponentDemo {
+  umbrella header "Pods-LJComponentDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
