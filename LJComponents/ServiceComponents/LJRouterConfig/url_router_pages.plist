@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>viewComponent</key>
+	<dict>
+		<key>class_name</key>
+		<string>#LJViewViewController</string>
+		<key>is_url_exported</key>
+		<false/>
+	</dict>
+	<key>serviceComponent</key>
+	<dict>
+		<key>class_name</key>
+		<string>#LJServiceViewController</string>
+	</dict>
+	<key>study</key>
+	<dict>
+		<key>class_name</key>
+		<string>#LJOthersViewController</string>
+	</dict>
+</dict>
+</plist>

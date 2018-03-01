@@ -14,7 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - Bugly (2.4.7)
   - CocoaLumberjack (2.3.0):
     - CocoaLumberjack/Default (= 2.3.0)
     - CocoaLumberjack/Extensions (= 2.3.0)
@@ -23,13 +22,19 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.3.0):
     - CocoaLumberjack/Default
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
   - FLEX (2.3.0)
-  - FMTopReflesh (1.0.0)
   - JPFPSStatus (0.1.1)
-  - JSONModel (1.3.0)
   - Masonry (1.0.1)
   - MBProgressHUD (0.9)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.1)
   - pop (1.0.10)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - YYCache (1.0.3)
   - YYCategories (1.0.3):
     - YYCategories/no-arc (= 1.0.3)
@@ -37,32 +42,34 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
-  - Bugly (= 2.4.7)
   - CocoaLumberjack (= 2.3.0)
+  - Colours (= 5.13.0)
   - FLEX (= 2.3.0)
-  - FMTopReflesh
   - JPFPSStatus (~> 0.1)
-  - JSONModel (= 1.3.0)
   - Masonry (= 1.0.1)
   - MBProgressHUD (= 0.9)
+  - MJExtension
+  - MJRefresh (~> 3.1.15.1)
   - pop (~> 1.0)
+  - SDWebImage (~> 4.0.0)
   - YYCache (= 1.0.3)
   - YYCategories (= 1.0.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Bugly: 2c256069145f550171907c5cb1c0f84ad291f6c1
   CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   FLEX: ba80ea13d2c784e85e616137fd4eff164781e364
-  FMTopReflesh: 066a1f0f36f4321a728f3fc32001766721f4d701
   JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
-  JSONModel: 81c06ecf99190a25fa6aafceea5faffa7880868a
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
   YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
 
-PODFILE CHECKSUM: da0a8ced78bd67fa27815655f81ac209d8fe8547
+PODFILE CHECKSUM: 2e7d1245e1cf0d06b3411c856a4d24a8fcc1639d
 
 COCOAPODS: 1.3.1

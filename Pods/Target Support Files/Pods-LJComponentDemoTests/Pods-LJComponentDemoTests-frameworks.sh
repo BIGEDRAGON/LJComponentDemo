@@ -46,7 +46,7 @@ install_framework()
   # Resign the code if required by the build settings to avoid unstable apps
   code_sign_if_enabled "${destination}/$(basename "$1")"
 
-  # Embed linked Swift runtime libraries. No longer necessary as of Xcode 7.
+  # Embed linked Swift runtime libraries. No longljer necessary as of Xcode 7.
   if [ "${XCODE_VERSION_MAJOR}" -lt 7 ]; then
     local swift_runtime_libs
     swift_runtime_libs=$(xcrun otool -LX "$binary" | grep --color=never @rpath/libswift | sed -E s/@rpath\\/\(.+dylib\).*/\\1/g | uniq -u  && exit ${PIPESTATUS[0]})
@@ -104,12 +104,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Colours/Colours.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FMTopReflesh/FMTopReflesh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JPFPSStatus/JPFPSStatus.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
@@ -117,11 +119,13 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FMTopReflesh/FMTopReflesh.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Colours/Colours.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JPFPSStatus/JPFPSStatus.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"

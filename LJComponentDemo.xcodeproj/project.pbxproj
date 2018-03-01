@@ -17,6 +17,62 @@
 		FD449A11202089D1003B4A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A10202089D1003B4A3D /* main.m */; };
 		FD449A1B202089D1003B4A3D /* LJComponentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A1A202089D1003B4A3D /* LJComponentDemoTests.m */; };
 		FD449A26202089D1003B4A3D /* LJComponentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A25202089D1003B4A3D /* LJComponentDemoUITests.m */; };
+		FD449A3A202153AC003B4A3D /* LJBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A39202153AB003B4A3D /* LJBaseTabBarController.m */; };
+		FD449A47202156E5003B4A3D /* LJNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A3E202156E5003B4A3D /* LJNavigationBarView.m */; };
+		FD449A48202156E5003B4A3D /* LJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A40202156E5003B4A3D /* LJNavigationController.m */; };
+		FD449A49202156E5003B4A3D /* LJNavigationControllerDelegation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A42202156E5003B4A3D /* LJNavigationControllerDelegation.m */; };
+		FD449A4A202156E5003B4A3D /* LJTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A44202156E5003B4A3D /* LJTransitionAnimator.m */; };
+		FD449A4B202156E5003B4A3D /* UIViewController+LJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A46202156E5003B4A3D /* UIViewController+LJNavigationController.m */; };
+		FD449A68202157BD003B4A3D /* UIApplication+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A4E202157BD003B4A3D /* UIApplication+LJAdd.m */; };
+		FD449A69202157BD003B4A3D /* UIButton+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A50202157BD003B4A3D /* UIButton+LJAdd.m */; };
+		FD449A6A202157BD003B4A3D /* UIColor+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A53202157BD003B4A3D /* UIColor+LJAdd.m */; };
+		FD449A6B202157BD003B4A3D /* UIFont+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A55202157BD003B4A3D /* UIFont+LJAdd.m */; };
+		FD449A6C202157BD003B4A3D /* UIImage+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A57202157BD003B4A3D /* UIImage+LJAdd.m */; };
+		FD449A6D202157BD003B4A3D /* UIImageView+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A59202157BD003B4A3D /* UIImageView+LJAdd.m */; };
+		FD449A6E202157BD003B4A3D /* UILabel+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A5B202157BD003B4A3D /* UILabel+LJAdd.m */; };
+		FD449A6F202157BD003B4A3D /* UIScreen+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A5D202157BD003B4A3D /* UIScreen+LJAdd.m */; };
+		FD449A70202157BD003B4A3D /* UIScrollView+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A5F202157BD003B4A3D /* UIScrollView+LJAdd.m */; };
+		FD449A71202157BD003B4A3D /* UITextField+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A61202157BD003B4A3D /* UITextField+LJAdd.m */; };
+		FD449A72202157BD003B4A3D /* UITextView+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A63202157BD003B4A3D /* UITextView+LJAdd.m */; };
+		FD449A74202157BD003B4A3D /* UIView+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A67202157BD003B4A3D /* UIView+LJAdd.m */; };
+		FD449A8920218FD8003B4A3D /* NSDate+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A7720218FD4003B4A3D /* NSDate+LJAdd.m */; };
+		FD449A8A20218FD8003B4A3D /* NSMutableDictionary+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A7820218FD4003B4A3D /* NSMutableDictionary+LJAdd.m */; };
+		FD449A8B20218FD8003B4A3D /* NSMutableArray+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A7920218FD4003B4A3D /* NSMutableArray+LJAdd.m */; };
+		FD449A8C20218FD8003B4A3D /* UIDevice+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A7A20218FD5003B4A3D /* UIDevice+LJAdd.m */; };
+		FD449A8D20218FD8003B4A3D /* NSURL+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A7B20218FD5003B4A3D /* NSURL+LJAdd.m */; };
+		FD449A8E20218FD8003B4A3D /* NSArray+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A7E20218FD5003B4A3D /* NSArray+LJAdd.m */; };
+		FD449A8F20218FD8003B4A3D /* NSString+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A8020218FD6003B4A3D /* NSString+LJAdd.m */; };
+		FD449A9120218FD8003B4A3D /* NSObject+LJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A8820218FD8003B4A3D /* NSObject+LJAdd.m */; };
+		FD449A982021A42E003B4A3D /* LJConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A972021A42E003B4A3D /* LJConstant.m */; };
+		FD449A9F2021BCFA003B4A3D /* LJLocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A9B2021BCFA003B4A3D /* LJLocalConnection.m */; };
+		FD449AA02021BCFA003B4A3D /* LJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449A9D2021BCFA003B4A3D /* LJReachability.m */; };
+		FD449AA72021C5D8003B4A3D /* LJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AA52021C5D8003B4A3D /* LJBaseRequest.m */; };
+		FD449AA82021C5D8003B4A3D /* LJNetworkProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AA62021C5D8003B4A3D /* LJNetworkProxy.m */; };
+		FD449AAB2021C84E003B4A3D /* LJViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AAA2021C84E003B4A3D /* LJViewViewController.m */; };
+		FD449AAE2021C858003B4A3D /* LJServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AAD2021C858003B4A3D /* LJServiceViewController.m */; };
+		FD449AB12021C865003B4A3D /* LJOthersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AB02021C865003B4A3D /* LJOthersViewController.m */; };
+		FD449AC82021EAF9003B4A3D /* NSObject+RouterPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AB52021EAF9003B4A3D /* NSObject+RouterPrivate.m */; };
+		FD449AC92021EAF9003B4A3D /* NSString+UrlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AB72021EAF9003B4A3D /* NSString+UrlRouter.m */; };
+		FD449ACA2021EAF9003B4A3D /* NSURL+UrlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AB92021EAF9003B4A3D /* NSURL+UrlRouter.m */; };
+		FD449ACB2021EAF9003B4A3D /* RouterProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449ABB2021EAF9003B4A3D /* RouterProtocol.m */; };
+		FD449ACC2021EAF9003B4A3D /* ServiceRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449ABD2021EAF9003B4A3D /* ServiceRouter.m */; };
+		FD449ACD2021EAF9003B4A3D /* UIViewController+UrlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449ABF2021EAF9003B4A3D /* UIViewController+UrlRouter.m */; };
+		FD449ACE2021EAF9003B4A3D /* UIViewController+UrlRouterPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AC12021EAF9003B4A3D /* UIViewController+UrlRouterPrivate.m */; };
+		FD449ACF2021EAF9003B4A3D /* UrlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AC32021EAF9003B4A3D /* UrlRouter.m */; };
+		FD449AD02021EAF9003B4A3D /* UrlRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AC52021EAF9003B4A3D /* UrlRouterConfig.m */; };
+		FD449AD12021EAF9003B4A3D /* UrlRouterDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AC72021EAF9003B4A3D /* UrlRouterDefines.m */; };
+		FD449AD92021EB90003B4A3D /* LJRouterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AD42021EB90003B4A3D /* LJRouterHandler.m */; };
+		FD449ADA2021EB90003B4A3D /* router.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD449AD52021EB90003B4A3D /* router.plist */; };
+		FD449ADB2021EB90003B4A3D /* service_router.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD449AD62021EB90003B4A3D /* service_router.plist */; };
+		FD449ADD2021EB90003B4A3D /* url_router_pages.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD449AD82021EB90003B4A3D /* url_router_pages.plist */; };
+		FD449AF22021F8B8003B4A3D /* LJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AF12021F8B8003B4A3D /* LJViewController.m */; };
+		FD449AFA2022EE82003B4A3D /* NSDecimalNumber+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = FD449AF92022EE81003B4A3D /* NSDecimalNumber+Addtion.m */; };
+		FD880B072040125800E15FAF /* UIViewController+LJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD880B062040125800E15FAF /* UIViewController+LJTabBarController.m */; };
+		FD880B1420439AF900E15FAF /* LJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD880B0A20439AF900E15FAF /* LJTabBar.m */; };
+		FD880B1520439AF900E15FAF /* LJTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = FD880B0C20439AF900E15FAF /* LJTabBarBadge.m */; };
+		FD880B1620439AF900E15FAF /* LJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD880B0F20439AF900E15FAF /* LJTabBarController.m */; };
+		FD880B1720439AF900E15FAF /* LJTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FD880B1120439AF900E15FAF /* LJTabBarItem.m */; };
+		FD880B1B20452AD800E15FAF /* LJTabBarPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD880B1A20452AD800E15FAF /* LJTabBarPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +115,121 @@
 		FD449A21202089D1003B4A3D /* LJComponentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJComponentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD449A25202089D1003B4A3D /* LJComponentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJComponentDemoUITests.m; sourceTree = "<group>"; };
 		FD449A27202089D1003B4A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD449A372020A06C003B4A3D /* LJComponentDemo-Info.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LJComponentDemo-Info.pch"; sourceTree = "<group>"; };
+		FD449A38202153AB003B4A3D /* LJBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJBaseTabBarController.h; sourceTree = "<group>"; };
+		FD449A39202153AB003B4A3D /* LJBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJBaseTabBarController.m; sourceTree = "<group>"; };
+		FD449A3D202156E5003B4A3D /* LJNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNavigationBarView.h; sourceTree = "<group>"; };
+		FD449A3E202156E5003B4A3D /* LJNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNavigationBarView.m; sourceTree = "<group>"; };
+		FD449A3F202156E5003B4A3D /* LJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNavigationController.h; sourceTree = "<group>"; };
+		FD449A40202156E5003B4A3D /* LJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNavigationController.m; sourceTree = "<group>"; };
+		FD449A41202156E5003B4A3D /* LJNavigationControllerDelegation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNavigationControllerDelegation.h; sourceTree = "<group>"; };
+		FD449A42202156E5003B4A3D /* LJNavigationControllerDelegation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNavigationControllerDelegation.m; sourceTree = "<group>"; };
+		FD449A43202156E5003B4A3D /* LJTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTransitionAnimator.h; sourceTree = "<group>"; };
+		FD449A44202156E5003B4A3D /* LJTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTransitionAnimator.m; sourceTree = "<group>"; };
+		FD449A45202156E5003B4A3D /* UIViewController+LJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LJNavigationController.h"; sourceTree = "<group>"; };
+		FD449A46202156E5003B4A3D /* UIViewController+LJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LJNavigationController.m"; sourceTree = "<group>"; };
+		FD449A4D202157BD003B4A3D /* UIApplication+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A4E202157BD003B4A3D /* UIApplication+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A4F202157BD003B4A3D /* UIButton+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A50202157BD003B4A3D /* UIButton+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A51202157BD003B4A3D /* LJCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCategories.h; sourceTree = "<group>"; };
+		FD449A52202157BD003B4A3D /* UIColor+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A53202157BD003B4A3D /* UIColor+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A54202157BD003B4A3D /* UIFont+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A55202157BD003B4A3D /* UIFont+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A56202157BD003B4A3D /* UIImage+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A57202157BD003B4A3D /* UIImage+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A58202157BD003B4A3D /* UIImageView+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A59202157BD003B4A3D /* UIImageView+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A5A202157BD003B4A3D /* UILabel+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A5B202157BD003B4A3D /* UILabel+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A5C202157BD003B4A3D /* UIScreen+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A5D202157BD003B4A3D /* UIScreen+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A5E202157BD003B4A3D /* UIScrollView+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A5F202157BD003B4A3D /* UIScrollView+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A60202157BD003B4A3D /* UITextField+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A61202157BD003B4A3D /* UITextField+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A62202157BD003B4A3D /* UITextView+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A63202157BD003B4A3D /* UITextView+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A66202157BD003B4A3D /* UIView+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A67202157BD003B4A3D /* UIView+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A7620216F64003B4A3D /* LJMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMacros.h; sourceTree = "<group>"; };
+		FD449A7720218FD4003B4A3D /* NSDate+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A7820218FD4003B4A3D /* NSMutableDictionary+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A7920218FD4003B4A3D /* NSMutableArray+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A7A20218FD5003B4A3D /* UIDevice+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A7B20218FD5003B4A3D /* NSURL+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A7C20218FD5003B4A3D /* NSObject+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A7D20218FD5003B4A3D /* NSURL+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A7E20218FD5003B4A3D /* NSArray+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A7F20218FD6003B4A3D /* NSString+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A8020218FD6003B4A3D /* NSString+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A8120218FD6003B4A3D /* UIDevice+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A8220218FD6003B4A3D /* NSMutableDictionary+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A8520218FD7003B4A3D /* NSDate+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A8620218FD7003B4A3D /* NSArray+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A8720218FD8003B4A3D /* NSMutableArray+LJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LJAdd.h"; sourceTree = "<group>"; };
+		FD449A8820218FD8003B4A3D /* NSObject+LJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJAdd.m"; sourceTree = "<group>"; };
+		FD449A962021A42E003B4A3D /* LJConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJConstant.h; sourceTree = "<group>"; };
+		FD449A972021A42E003B4A3D /* LJConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJConstant.m; sourceTree = "<group>"; };
+		FD449A9B2021BCFA003B4A3D /* LJLocalConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLocalConnection.m; sourceTree = "<group>"; };
+		FD449A9C2021BCFA003B4A3D /* LJReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJReachability.h; sourceTree = "<group>"; };
+		FD449A9D2021BCFA003B4A3D /* LJReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJReachability.m; sourceTree = "<group>"; };
+		FD449A9E2021BCFA003B4A3D /* LJLocalConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLocalConnection.h; sourceTree = "<group>"; };
+		FD449AA22021C549003B4A3D /* LJCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCommons.h; sourceTree = "<group>"; };
+		FD449AA32021C5D7003B4A3D /* LJBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseRequest.h; sourceTree = "<group>"; };
+		FD449AA42021C5D8003B4A3D /* LJNetworkProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNetworkProxy.h; sourceTree = "<group>"; };
+		FD449AA52021C5D8003B4A3D /* LJBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseRequest.m; sourceTree = "<group>"; };
+		FD449AA62021C5D8003B4A3D /* LJNetworkProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNetworkProxy.m; sourceTree = "<group>"; };
+		FD449AA92021C84E003B4A3D /* LJViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJViewViewController.h; sourceTree = "<group>"; };
+		FD449AAA2021C84E003B4A3D /* LJViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJViewViewController.m; sourceTree = "<group>"; };
+		FD449AAC2021C858003B4A3D /* LJServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJServiceViewController.h; sourceTree = "<group>"; };
+		FD449AAD2021C858003B4A3D /* LJServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJServiceViewController.m; sourceTree = "<group>"; };
+		FD449AAF2021C865003B4A3D /* LJOthersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJOthersViewController.h; sourceTree = "<group>"; };
+		FD449AB02021C865003B4A3D /* LJOthersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJOthersViewController.m; sourceTree = "<group>"; };
+		FD449AB32021EAF9003B4A3D /* LJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRouter.h; sourceTree = "<group>"; };
+		FD449AB42021EAF9003B4A3D /* NSObject+RouterPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RouterPrivate.h"; sourceTree = "<group>"; };
+		FD449AB52021EAF9003B4A3D /* NSObject+RouterPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RouterPrivate.m"; sourceTree = "<group>"; };
+		FD449AB62021EAF9003B4A3D /* NSString+UrlRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlRouter.h"; sourceTree = "<group>"; };
+		FD449AB72021EAF9003B4A3D /* NSString+UrlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlRouter.m"; sourceTree = "<group>"; };
+		FD449AB82021EAF9003B4A3D /* NSURL+UrlRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+UrlRouter.h"; sourceTree = "<group>"; };
+		FD449AB92021EAF9003B4A3D /* NSURL+UrlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+UrlRouter.m"; sourceTree = "<group>"; };
+		FD449ABA2021EAF9003B4A3D /* RouterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterProtocol.h; sourceTree = "<group>"; };
+		FD449ABB2021EAF9003B4A3D /* RouterProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterProtocol.m; sourceTree = "<group>"; };
+		FD449ABC2021EAF9003B4A3D /* ServiceRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceRouter.h; sourceTree = "<group>"; };
+		FD449ABD2021EAF9003B4A3D /* ServiceRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceRouter.m; sourceTree = "<group>"; };
+		FD449ABE2021EAF9003B4A3D /* UIViewController+UrlRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UrlRouter.h"; sourceTree = "<group>"; };
+		FD449ABF2021EAF9003B4A3D /* UIViewController+UrlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UrlRouter.m"; sourceTree = "<group>"; };
+		FD449AC02021EAF9003B4A3D /* UIViewController+UrlRouterPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UrlRouterPrivate.h"; sourceTree = "<group>"; };
+		FD449AC12021EAF9003B4A3D /* UIViewController+UrlRouterPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UrlRouterPrivate.m"; sourceTree = "<group>"; };
+		FD449AC22021EAF9003B4A3D /* UrlRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlRouter.h; sourceTree = "<group>"; };
+		FD449AC32021EAF9003B4A3D /* UrlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlRouter.m; sourceTree = "<group>"; };
+		FD449AC42021EAF9003B4A3D /* UrlRouterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlRouterConfig.h; sourceTree = "<group>"; };
+		FD449AC52021EAF9003B4A3D /* UrlRouterConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlRouterConfig.m; sourceTree = "<group>"; };
+		FD449AC62021EAF9003B4A3D /* UrlRouterDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlRouterDefines.h; sourceTree = "<group>"; };
+		FD449AC72021EAF9003B4A3D /* UrlRouterDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlRouterDefines.m; sourceTree = "<group>"; };
+		FD449AD32021EB90003B4A3D /* LJRouterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRouterHandler.h; sourceTree = "<group>"; };
+		FD449AD42021EB90003B4A3D /* LJRouterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRouterHandler.m; sourceTree = "<group>"; };
+		FD449AD52021EB90003B4A3D /* router.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = router.plist; sourceTree = "<group>"; };
+		FD449AD62021EB90003B4A3D /* service_router.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = service_router.plist; sourceTree = "<group>"; };
+		FD449AD82021EB90003B4A3D /* url_router_pages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = url_router_pages.plist; sourceTree = "<group>"; };
+		FD449AF02021F8B8003B4A3D /* LJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJViewController.h; sourceTree = "<group>"; };
+		FD449AF12021F8B8003B4A3D /* LJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJViewController.m; sourceTree = "<group>"; };
+		FD449AF42022B076003B4A3D /* LJAppSkeleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJAppSkeleton.h; sourceTree = "<group>"; };
+		FD449AF82022EE81003B4A3D /* NSDecimalNumber+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+Addtion.h"; sourceTree = "<group>"; };
+		FD449AF92022EE81003B4A3D /* NSDecimalNumber+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Addtion.m"; sourceTree = "<group>"; };
+		FD880B052040125800E15FAF /* UIViewController+LJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LJTabBarController.h"; sourceTree = "<group>"; };
+		FD880B062040125800E15FAF /* UIViewController+LJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LJTabBarController.m"; sourceTree = "<group>"; };
+		FD880B0920439AF900E15FAF /* LJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBar.h; sourceTree = "<group>"; };
+		FD880B0A20439AF900E15FAF /* LJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBar.m; sourceTree = "<group>"; };
+		FD880B0B20439AF900E15FAF /* LJTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBarBadge.h; sourceTree = "<group>"; };
+		FD880B0C20439AF900E15FAF /* LJTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBarBadge.m; sourceTree = "<group>"; };
+		FD880B0E20439AF900E15FAF /* LJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBarController.h; sourceTree = "<group>"; };
+		FD880B0F20439AF900E15FAF /* LJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBarController.m; sourceTree = "<group>"; };
+		FD880B1020439AF900E15FAF /* LJTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBarItem.h; sourceTree = "<group>"; };
+		FD880B1120439AF900E15FAF /* LJTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBarItem.m; sourceTree = "<group>"; };
+		FD880B1920452AD800E15FAF /* LJTabBarPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJTabBarPoint.h; sourceTree = "<group>"; };
+		FD880B1A20452AD800E15FAF /* LJTabBarPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTabBarPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +282,7 @@
 		FD4499F5202089D1003B4A3D = {
 			isa = PBXGroup;
 			children = (
+				FD449A3320209F07003B4A3D /* LJComponents */,
 				FD449A00202089D1003B4A3D /* LJComponentDemo */,
 				FD449A19202089D1003B4A3D /* LJComponentDemoTests */,
 				FD449A24202089D1003B4A3D /* LJComponentDemoUITests */,
@@ -133,15 +305,7 @@
 		FD449A00202089D1003B4A3D /* LJComponentDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FD449A01202089D1003B4A3D /* AppDelegate.h */,
-				FD449A02202089D1003B4A3D /* AppDelegate.m */,
-				FD449A04202089D1003B4A3D /* ViewController.h */,
-				FD449A05202089D1003B4A3D /* ViewController.m */,
-				FD449A07202089D1003B4A3D /* Main.storyboard */,
-				FD449A0A202089D1003B4A3D /* Assets.xcassets */,
-				FD449A0C202089D1003B4A3D /* LaunchScreen.storyboard */,
-				FD449A0F202089D1003B4A3D /* Info.plist */,
-				FD449A10202089D1003B4A3D /* main.m */,
+				FD449A3420209F16003B4A3D /* Classes */,
 			);
 			path = LJComponentDemo;
 			sourceTree = "<group>";
@@ -162,6 +326,280 @@
 				FD449A27202089D1003B4A3D /* Info.plist */,
 			);
 			path = LJComponentDemoUITests;
+			sourceTree = "<group>";
+		};
+		FD449A3320209F07003B4A3D /* LJComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FD449A992021BCC9003B4A3D /* ServiceComponents */,
+				FD449A3B202156E5003B4A3D /* UIComponents */,
+			);
+			path = LJComponents;
+			sourceTree = "<group>";
+		};
+		FD449A3420209F16003B4A3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD449A3520209F22003B4A3D /* UILayer */,
+				FD449A3620209FFA003B4A3D /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD449A3520209F22003B4A3D /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				FD449A38202153AB003B4A3D /* LJBaseTabBarController.h */,
+				FD449A39202153AB003B4A3D /* LJBaseTabBarController.m */,
+				FD449AF52022B933003B4A3D /* View */,
+				FD449AF62022B939003B4A3D /* Service */,
+				FD449AF72022B93F003B4A3D /* Others */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		FD449A3620209FFA003B4A3D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FD449A01202089D1003B4A3D /* AppDelegate.h */,
+				FD449A02202089D1003B4A3D /* AppDelegate.m */,
+				FD449A04202089D1003B4A3D /* ViewController.h */,
+				FD449A05202089D1003B4A3D /* ViewController.m */,
+				FD449A07202089D1003B4A3D /* Main.storyboard */,
+				FD449A0A202089D1003B4A3D /* Assets.xcassets */,
+				FD449A0C202089D1003B4A3D /* LaunchScreen.storyboard */,
+				FD449A0F202089D1003B4A3D /* Info.plist */,
+				FD449A10202089D1003B4A3D /* main.m */,
+				FD449A372020A06C003B4A3D /* LJComponentDemo-Info.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FD449A3B202156E5003B4A3D /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AA12021C4B6003B4A3D /* LJCommons */,
+				FD449AF32022B04A003B4A3D /* LJAppSkeleton */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		FD449A3C202156E5003B4A3D /* LJNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				FD449A3F202156E5003B4A3D /* LJNavigationController.h */,
+				FD449A40202156E5003B4A3D /* LJNavigationController.m */,
+				FD449A3D202156E5003B4A3D /* LJNavigationBarView.h */,
+				FD449A3E202156E5003B4A3D /* LJNavigationBarView.m */,
+				FD449A41202156E5003B4A3D /* LJNavigationControllerDelegation.h */,
+				FD449A42202156E5003B4A3D /* LJNavigationControllerDelegation.m */,
+				FD449A43202156E5003B4A3D /* LJTransitionAnimator.h */,
+				FD449A44202156E5003B4A3D /* LJTransitionAnimator.m */,
+				FD449A45202156E5003B4A3D /* UIViewController+LJNavigationController.h */,
+				FD449A46202156E5003B4A3D /* UIViewController+LJNavigationController.m */,
+			);
+			path = LJNavigationController;
+			sourceTree = "<group>";
+		};
+		FD449A4C202157BD003B4A3D /* LJCategories */ = {
+			isa = PBXGroup;
+			children = (
+				FD449A51202157BD003B4A3D /* LJCategories.h */,
+				FD449A4D202157BD003B4A3D /* UIApplication+LJAdd.h */,
+				FD449A4E202157BD003B4A3D /* UIApplication+LJAdd.m */,
+				FD449A4F202157BD003B4A3D /* UIButton+LJAdd.h */,
+				FD449A50202157BD003B4A3D /* UIButton+LJAdd.m */,
+				FD449A52202157BD003B4A3D /* UIColor+LJAdd.h */,
+				FD449A53202157BD003B4A3D /* UIColor+LJAdd.m */,
+				FD449A54202157BD003B4A3D /* UIFont+LJAdd.h */,
+				FD449A55202157BD003B4A3D /* UIFont+LJAdd.m */,
+				FD449A56202157BD003B4A3D /* UIImage+LJAdd.h */,
+				FD449A57202157BD003B4A3D /* UIImage+LJAdd.m */,
+				FD449A58202157BD003B4A3D /* UIImageView+LJAdd.h */,
+				FD449A59202157BD003B4A3D /* UIImageView+LJAdd.m */,
+				FD449A5A202157BD003B4A3D /* UILabel+LJAdd.h */,
+				FD449A5B202157BD003B4A3D /* UILabel+LJAdd.m */,
+				FD449A5C202157BD003B4A3D /* UIScreen+LJAdd.h */,
+				FD449A5D202157BD003B4A3D /* UIScreen+LJAdd.m */,
+				FD449A5E202157BD003B4A3D /* UIScrollView+LJAdd.h */,
+				FD449A5F202157BD003B4A3D /* UIScrollView+LJAdd.m */,
+				FD449A60202157BD003B4A3D /* UITextField+LJAdd.h */,
+				FD449A61202157BD003B4A3D /* UITextField+LJAdd.m */,
+				FD449A62202157BD003B4A3D /* UITextView+LJAdd.h */,
+				FD449A63202157BD003B4A3D /* UITextView+LJAdd.m */,
+				FD449A66202157BD003B4A3D /* UIView+LJAdd.h */,
+				FD449A67202157BD003B4A3D /* UIView+LJAdd.m */,
+				FD449A8520218FD7003B4A3D /* NSDate+LJAdd.h */,
+				FD449A7720218FD4003B4A3D /* NSDate+LJAdd.m */,
+				FD449AF82022EE81003B4A3D /* NSDecimalNumber+Addtion.h */,
+				FD449AF92022EE81003B4A3D /* NSDecimalNumber+Addtion.m */,
+				FD449A8620218FD7003B4A3D /* NSArray+LJAdd.h */,
+				FD449A7E20218FD5003B4A3D /* NSArray+LJAdd.m */,
+				FD449A8720218FD8003B4A3D /* NSMutableArray+LJAdd.h */,
+				FD449A7920218FD4003B4A3D /* NSMutableArray+LJAdd.m */,
+				FD449A8220218FD6003B4A3D /* NSMutableDictionary+LJAdd.h */,
+				FD449A7820218FD4003B4A3D /* NSMutableDictionary+LJAdd.m */,
+				FD449A7F20218FD6003B4A3D /* NSString+LJAdd.h */,
+				FD449A8020218FD6003B4A3D /* NSString+LJAdd.m */,
+				FD449A7D20218FD5003B4A3D /* NSURL+LJAdd.h */,
+				FD449A7B20218FD5003B4A3D /* NSURL+LJAdd.m */,
+				FD449A8120218FD6003B4A3D /* UIDevice+LJAdd.h */,
+				FD449A7A20218FD5003B4A3D /* UIDevice+LJAdd.m */,
+				FD449A7C20218FD5003B4A3D /* NSObject+LJAdd.h */,
+				FD449A8820218FD8003B4A3D /* NSObject+LJAdd.m */,
+			);
+			path = LJCategories;
+			sourceTree = "<group>";
+		};
+		FD449A7520216F32003B4A3D /* LJMacros */ = {
+			isa = PBXGroup;
+			children = (
+				FD449A7620216F64003B4A3D /* LJMacros.h */,
+				FD449A962021A42E003B4A3D /* LJConstant.h */,
+				FD449A972021A42E003B4A3D /* LJConstant.m */,
+			);
+			path = LJMacros;
+			sourceTree = "<group>";
+		};
+		FD449A992021BCC9003B4A3D /* ServiceComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AB22021EAF9003B4A3D /* LJRouter */,
+				FD449AD22021EB90003B4A3D /* LJRouterConfig */,
+				FD449A9A2021BCD4003B4A3D /* LJBaseNetWork */,
+			);
+			path = ServiceComponents;
+			sourceTree = "<group>";
+		};
+		FD449A9A2021BCD4003B4A3D /* LJBaseNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AA32021C5D7003B4A3D /* LJBaseRequest.h */,
+				FD449AA52021C5D8003B4A3D /* LJBaseRequest.m */,
+				FD449AA42021C5D8003B4A3D /* LJNetworkProxy.h */,
+				FD449AA62021C5D8003B4A3D /* LJNetworkProxy.m */,
+				FD449A9C2021BCFA003B4A3D /* LJReachability.h */,
+				FD449A9D2021BCFA003B4A3D /* LJReachability.m */,
+				FD449A9E2021BCFA003B4A3D /* LJLocalConnection.h */,
+				FD449A9B2021BCFA003B4A3D /* LJLocalConnection.m */,
+			);
+			path = LJBaseNetWork;
+			sourceTree = "<group>";
+		};
+		FD449AA12021C4B6003B4A3D /* LJCommons */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AA22021C549003B4A3D /* LJCommons.h */,
+				FD449A7520216F32003B4A3D /* LJMacros */,
+				FD449A4C202157BD003B4A3D /* LJCategories */,
+			);
+			path = LJCommons;
+			sourceTree = "<group>";
+		};
+		FD449AB22021EAF9003B4A3D /* LJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AB32021EAF9003B4A3D /* LJRouter.h */,
+				FD449AC42021EAF9003B4A3D /* UrlRouterConfig.h */,
+				FD449AC52021EAF9003B4A3D /* UrlRouterConfig.m */,
+				FD449AC62021EAF9003B4A3D /* UrlRouterDefines.h */,
+				FD449AC72021EAF9003B4A3D /* UrlRouterDefines.m */,
+				FD449AC22021EAF9003B4A3D /* UrlRouter.h */,
+				FD449AC32021EAF9003B4A3D /* UrlRouter.m */,
+				FD449AB62021EAF9003B4A3D /* NSString+UrlRouter.h */,
+				FD449AB72021EAF9003B4A3D /* NSString+UrlRouter.m */,
+				FD449AB82021EAF9003B4A3D /* NSURL+UrlRouter.h */,
+				FD449AB92021EAF9003B4A3D /* NSURL+UrlRouter.m */,
+				FD449ABE2021EAF9003B4A3D /* UIViewController+UrlRouter.h */,
+				FD449ABF2021EAF9003B4A3D /* UIViewController+UrlRouter.m */,
+				FD449AC02021EAF9003B4A3D /* UIViewController+UrlRouterPrivate.h */,
+				FD449AC12021EAF9003B4A3D /* UIViewController+UrlRouterPrivate.m */,
+				FD449AB42021EAF9003B4A3D /* NSObject+RouterPrivate.h */,
+				FD449AB52021EAF9003B4A3D /* NSObject+RouterPrivate.m */,
+				FD449ABA2021EAF9003B4A3D /* RouterProtocol.h */,
+				FD449ABB2021EAF9003B4A3D /* RouterProtocol.m */,
+				FD449ABC2021EAF9003B4A3D /* ServiceRouter.h */,
+				FD449ABD2021EAF9003B4A3D /* ServiceRouter.m */,
+			);
+			path = LJRouter;
+			sourceTree = "<group>";
+		};
+		FD449AD22021EB90003B4A3D /* LJRouterConfig */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AD52021EB90003B4A3D /* router.plist */,
+				FD449AD82021EB90003B4A3D /* url_router_pages.plist */,
+				FD449AD62021EB90003B4A3D /* service_router.plist */,
+				FD449AD32021EB90003B4A3D /* LJRouterHandler.h */,
+				FD449AD42021EB90003B4A3D /* LJRouterHandler.m */,
+			);
+			path = LJRouterConfig;
+			sourceTree = "<group>";
+		};
+		FD449AEF2021F87C003B4A3D /* LJViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AF02021F8B8003B4A3D /* LJViewController.h */,
+				FD449AF12021F8B8003B4A3D /* LJViewController.m */,
+			);
+			path = LJViewController;
+			sourceTree = "<group>";
+		};
+		FD449AF32022B04A003B4A3D /* LJAppSkeleton */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AF42022B076003B4A3D /* LJAppSkeleton.h */,
+				FD449A3C202156E5003B4A3D /* LJNavigationController */,
+				FD880B042040105600E15FAF /* LJTabBarController */,
+				FD449AEF2021F87C003B4A3D /* LJViewController */,
+			);
+			path = LJAppSkeleton;
+			sourceTree = "<group>";
+		};
+		FD449AF52022B933003B4A3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AA92021C84E003B4A3D /* LJViewViewController.h */,
+				FD449AAA2021C84E003B4A3D /* LJViewViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD449AF62022B939003B4A3D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AAC2021C858003B4A3D /* LJServiceViewController.h */,
+				FD449AAD2021C858003B4A3D /* LJServiceViewController.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FD449AF72022B93F003B4A3D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FD449AAF2021C865003B4A3D /* LJOthersViewController.h */,
+				FD449AB02021C865003B4A3D /* LJOthersViewController.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FD880B042040105600E15FAF /* LJTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FD880B0E20439AF900E15FAF /* LJTabBarController.h */,
+				FD880B0F20439AF900E15FAF /* LJTabBarController.m */,
+				FD880B0920439AF900E15FAF /* LJTabBar.h */,
+				FD880B0A20439AF900E15FAF /* LJTabBar.m */,
+				FD880B1020439AF900E15FAF /* LJTabBarItem.h */,
+				FD880B1120439AF900E15FAF /* LJTabBarItem.m */,
+				FD880B0B20439AF900E15FAF /* LJTabBarBadge.h */,
+				FD880B0C20439AF900E15FAF /* LJTabBarBadge.m */,
+				FD880B1920452AD800E15FAF /* LJTabBarPoint.h */,
+				FD880B1A20452AD800E15FAF /* LJTabBarPoint.m */,
+				FD880B052040125800E15FAF /* UIViewController+LJTabBarController.h */,
+				FD880B062040125800E15FAF /* UIViewController+LJTabBarController.m */,
+			);
+			path = LJTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +670,7 @@
 		FD4499F6202089D1003B4A3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LJ;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = long;
 				TargetAttributes = {
@@ -277,8 +716,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD449A0E202089D1003B4A3D /* LaunchScreen.storyboard in Resources */,
+				FD449ADB2021EB90003B4A3D /* service_router.plist in Resources */,
 				FD449A0B202089D1003B4A3D /* Assets.xcassets in Resources */,
 				FD449A09202089D1003B4A3D /* Main.storyboard in Resources */,
+				FD449ADD2021EB90003B4A3D /* url_router_pages.plist in Resources */,
+				FD449ADA2021EB90003B4A3D /* router.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,12 +768,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-LJComponentDemoTests/Pods-LJComponentDemoTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
 				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
-				"${BUILT_PRODUCTS_DIR}/FMTopReflesh/FMTopReflesh.framework",
 				"${BUILT_PRODUCTS_DIR}/JPFPSStatus/JPFPSStatus.framework",
-				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
@@ -340,12 +784,14 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMTopReflesh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JPFPSStatus.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
@@ -412,12 +858,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-LJComponentDemo/Pods-LJComponentDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
 				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
-				"${BUILT_PRODUCTS_DIR}/FMTopReflesh/FMTopReflesh.framework",
 				"${BUILT_PRODUCTS_DIR}/JPFPSStatus/JPFPSStatus.framework",
-				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
@@ -426,12 +874,14 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMTopReflesh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JPFPSStatus.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
@@ -448,9 +898,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD449ACB2021EAF9003B4A3D /* RouterProtocol.m in Sources */,
+				FD449A74202157BD003B4A3D /* UIView+LJAdd.m in Sources */,
 				FD449A06202089D1003B4A3D /* ViewController.m in Sources */,
+				FD880B1720439AF900E15FAF /* LJTabBarItem.m in Sources */,
+				FD449A8F20218FD8003B4A3D /* NSString+LJAdd.m in Sources */,
+				FD449A47202156E5003B4A3D /* LJNavigationBarView.m in Sources */,
+				FD449AFA2022EE82003B4A3D /* NSDecimalNumber+Addtion.m in Sources */,
+				FD880B072040125800E15FAF /* UIViewController+LJTabBarController.m in Sources */,
+				FD449A982021A42E003B4A3D /* LJConstant.m in Sources */,
+				FD449A71202157BD003B4A3D /* UITextField+LJAdd.m in Sources */,
+				FD449A4A202156E5003B4A3D /* LJTransitionAnimator.m in Sources */,
+				FD449A9F2021BCFA003B4A3D /* LJLocalConnection.m in Sources */,
+				FD449A48202156E5003B4A3D /* LJNavigationController.m in Sources */,
+				FD449A72202157BD003B4A3D /* UITextView+LJAdd.m in Sources */,
+				FD449ACD2021EAF9003B4A3D /* UIViewController+UrlRouter.m in Sources */,
+				FD449A8D20218FD8003B4A3D /* NSURL+LJAdd.m in Sources */,
+				FD449A9120218FD8003B4A3D /* NSObject+LJAdd.m in Sources */,
+				FD449A8E20218FD8003B4A3D /* NSArray+LJAdd.m in Sources */,
+				FD449AD12021EAF9003B4A3D /* UrlRouterDefines.m in Sources */,
+				FD880B1520439AF900E15FAF /* LJTabBarBadge.m in Sources */,
+				FD880B1420439AF900E15FAF /* LJTabBar.m in Sources */,
+				FD449AAB2021C84E003B4A3D /* LJViewViewController.m in Sources */,
+				FD449A3A202153AC003B4A3D /* LJBaseTabBarController.m in Sources */,
+				FD449AA02021BCFA003B4A3D /* LJReachability.m in Sources */,
+				FD449A70202157BD003B4A3D /* UIScrollView+LJAdd.m in Sources */,
+				FD449A4B202156E5003B4A3D /* UIViewController+LJNavigationController.m in Sources */,
+				FD449AC82021EAF9003B4A3D /* NSObject+RouterPrivate.m in Sources */,
+				FD449AAE2021C858003B4A3D /* LJServiceViewController.m in Sources */,
+				FD449A8920218FD8003B4A3D /* NSDate+LJAdd.m in Sources */,
+				FD449ACC2021EAF9003B4A3D /* ServiceRouter.m in Sources */,
+				FD880B1B20452AD800E15FAF /* LJTabBarPoint.m in Sources */,
+				FD449ACF2021EAF9003B4A3D /* UrlRouter.m in Sources */,
+				FD449AB12021C865003B4A3D /* LJOthersViewController.m in Sources */,
+				FD449AA82021C5D8003B4A3D /* LJNetworkProxy.m in Sources */,
+				FD449A68202157BD003B4A3D /* UIApplication+LJAdd.m in Sources */,
+				FD449A8A20218FD8003B4A3D /* NSMutableDictionary+LJAdd.m in Sources */,
+				FD449AA72021C5D8003B4A3D /* LJBaseRequest.m in Sources */,
+				FD449A6D202157BD003B4A3D /* UIImageView+LJAdd.m in Sources */,
+				FD449A49202156E5003B4A3D /* LJNavigationControllerDelegation.m in Sources */,
+				FD449ACA2021EAF9003B4A3D /* NSURL+UrlRouter.m in Sources */,
 				FD449A11202089D1003B4A3D /* main.m in Sources */,
+				FD449A6A202157BD003B4A3D /* UIColor+LJAdd.m in Sources */,
+				FD880B1620439AF900E15FAF /* LJTabBarController.m in Sources */,
+				FD449AD92021EB90003B4A3D /* LJRouterHandler.m in Sources */,
+				FD449AD02021EAF9003B4A3D /* UrlRouterConfig.m in Sources */,
 				FD449A03202089D1003B4A3D /* AppDelegate.m in Sources */,
+				FD449A8B20218FD8003B4A3D /* NSMutableArray+LJAdd.m in Sources */,
+				FD449A6B202157BD003B4A3D /* UIFont+LJAdd.m in Sources */,
+				FD449A8C20218FD8003B4A3D /* UIDevice+LJAdd.m in Sources */,
+				FD449AF22021F8B8003B4A3D /* LJViewController.m in Sources */,
+				FD449A69202157BD003B4A3D /* UIButton+LJAdd.m in Sources */,
+				FD449A6E202157BD003B4A3D /* UILabel+LJAdd.m in Sources */,
+				FD449A6C202157BD003B4A3D /* UIImage+LJAdd.m in Sources */,
+				FD449ACE2021EAF9003B4A3D /* UIViewController+UrlRouterPrivate.m in Sources */,
+				FD449AC92021EAF9003B4A3D /* NSString+UrlRouter.m in Sources */,
+				FD449A6F202157BD003B4A3D /* UIScreen+LJAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +1120,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBUL4ED26B;
-				INFOPLIST_FILE = LJComponentDemo/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJComponentDemo/Classes/Others/LJComponentDemo-Info.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LJComponentDemo/Classes/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.long.LJComponentDemo;
@@ -634,7 +1138,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBUL4ED26B;
-				INFOPLIST_FILE = LJComponentDemo/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJComponentDemo/Classes/Others/LJComponentDemo-Info.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LJComponentDemo/Classes/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.long.LJComponentDemo;

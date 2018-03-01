@@ -2,8 +2,8 @@
 //  LJComponentDemoUITests.m
 //  LJComponentDemoUITests
 //
-//  Created by long on 2018/1/30.
-//  Copyright © 2018年 long. All rights reserved.
+//  Created by longlj on 2018/1/30.
+//  Copyright © 2018年 longlj. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

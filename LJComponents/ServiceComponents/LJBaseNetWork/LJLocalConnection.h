@@ -1,0 +1,48 @@
+//
+//  LocalConnection.h
+//  LJNetWork
+//
+//  Created by Dustturtle on 2016/1/9.
+//  Copyright (c) 2016 Dustturtle. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+
+#define GLocalConnection [LJLocalConnection sharedInstance]
+
+UIKIT_EXTERN NSString * const kLocalConnectionChangedNotification;
+UIKIT_EXTERN NSString * const kLocalConnectionInitializedNotification;
+
+typedef NS_ENUM(NSInteger, LocalConnectionStatus)
+{
+    LC_UnReachable = 0,
+    LC_WWAN        = 1,
+    LC_WiFi        = 2
+};
+
+@interface LJLocalConnection : NSObject
+
++ (instancetype)sharedInstance;
+
+/**
+ * Start observering local connection status.
+ *
+ *  @return success or failure. YES->success
+ */
+- (void)startNotifier;
+
+/**
+ *  Stop observering local connection status.
+ */
+- (void)stopNotifier;
+
+/**
+ *  Return current local connection status immediately.
+ *
+ *  @return see enum LocalConnectionStatus
+ */
+- (LocalConnectionStatus)currentLocalConnectionStatus;
+
+@end
+
